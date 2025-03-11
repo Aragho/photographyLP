@@ -40,7 +40,7 @@ const Home = () => {
         </div>
         <div className='  mt-12 w-full  h-auto flex flex-col   md:flex-row gap-3 lg:gap-52 justify-center items-center  '>
             <div className='w-full max-w-[483px] h-auto mx-auto md:mx-0'>
-                <img src={small3} alt="flower"/>
+                <img src={small3} alt="flower"  className=" ml-7 w-[420px] h-auto object-cover"/>
             </div>
             <div className='w-[435px] h-[376px]  ml-10'>
                 <h3 className='text-[#3F41A6] mt-8 font-bold'>GET TO KNOW US</h3>
