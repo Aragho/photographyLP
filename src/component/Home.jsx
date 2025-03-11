@@ -40,16 +40,20 @@ const Home = () => {
         </div>
         <div className='  mt-12 w-full  h-auto flex flex-col   md:flex-row gap-3 lg:gap-52 justify-center items-center  '>
             <div className='w-full max-w-[483px] h-auto mx-auto md:mx-0'>
-                <img src={small3} alt="flower"  className=" ml-7 w-[420px] h-auto object-cover"/>
+                <img src={small3} alt="flower"  className=" ml-3 w-[370px] h-auto object-cover"/>
             </div>
-            <div className='w-[435px] h-[376px]  ml-10'>
-                <h3 className='text-[#3F41A6] mt-8 font-bold'>GET TO KNOW US</h3>
-                <h1 className='text-[#1A093C] font-bold  text-[40px] mt-9 lg:text-[40px]'>Why we make it happens</h1>
-                <h4 className='text-[#1A093C]'> Your ceremony & reception venues, your vision, your dress, your colours and anythingelse you would like.</h4>
-                <button className='flex items-center border-none text-white bg-[#3F41A6] rounded-full py-3 px-5  mt-16 lg:mt-14 '>
-                    Get in Touch <IoIosArrowForward className='ml-2 mt-1' />
-                </button>
-            </div>
+            <div className="w-full max-w-[435px] h-auto mx-auto px-5 md:px-0">
+    <h3 className="text-[#3F41A6] mt-8 font-bold text-center md:text-left">GET TO KNOW US</h3>
+    <h1 className="text-[#1A093C] font-bold text-2xl md:text-3xl lg:text-[40px] mt-6 text-center md:text-left">
+        Why we make it happen
+    </h1>
+    <h4 className="text-[#1A093C] text-sm md:text-base text-center md:text-left mt-4">
+        Your ceremony & reception venues, your vision, your dress, your colours and anything else you would like.
+    </h4>
+    <button className="flex items-center justify-center md:justify-start border-none text-white bg-[#3F41A6] rounded-full py-3 px-5 mt-10 mx-auto md:mx-0">
+        Get in Touch <IoIosArrowForward className="ml-2 mt-1" />
+    </button>
+</div>
 
         </div>
 
