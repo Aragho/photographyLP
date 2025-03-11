@@ -14,10 +14,9 @@ import { Link } from 'react-scroll';
 
 const Photoshoots = () => {
     return (
-        <div className='bg-red-500 w-full h-auto py-10 px-4 overflow-x-hidden'>  
+        <div className=' w-full h-auto py-10 px-4 overflow-x-hidden'>  
             <h1 className='text-[#1A093C] font-semibold text-3xl ml-10'>Our Awesome Works</h1>
             <h3 className='text-lg text-gray-800 mt-2 ml-10 '>See what we shooted</h3>
-            <p className='text-sm text-gray-700 mt-1 text-center'>&copy; 2023 Photography by Your Name. All rights reserved.</p>
             <div className='container mx-auto grid grid-cols-2 md:grid-cols-3 w-full gap-4 mt-6'>
                 <img src={flower} alt='flower' className='w-full h-auto shadow-md rounded-lg' />
                 <img src={flower1} alt='flower1' className='w-full h-auto shadow-md rounded-lg' />

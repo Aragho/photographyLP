@@ -39,8 +39,8 @@ const Home = () => {
             </div>
         </div>
         <div className='  mt-12 w-full  h-auto flex flex-col   md:flex-row gap-3 lg:gap-52 justify-center items-center  '>
-            <div className='w-[483px] h-[459px ml-12 lg:ml-[-300px]'>
-                <img src={small3} alt="flower" />
+            <div className='w-full max-w-[483px] h-auto mx-auto md:mx-0'>
+                <img src={small3} alt="flower"  className="w-full h-auto object-cover"/>
             </div>
             <div className='w-[435px] h-[376px]  ml-10'>
                 <h3 className='text-[#3F41A6] mt-8 font-bold'>GET TO KNOW US</h3>

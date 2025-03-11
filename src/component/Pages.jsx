@@ -32,41 +32,43 @@ const Pages = () => {
                     </div>
                 </div>  
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-2 mt-5 ml-14'>
-                <div className='relative grid grid-cols-3 gap-1 w-[30rem] md:ml-44'>
-                    <img src={first} alt="cam" className='w-[152px] h-[200px] object-cover' />
-                    <img src={second} alt="cam" className='w-[152px] h-[200px] object-cover' />
-                    <img src={third} alt="cam" className='w-[152px] h-[200px] object-cover' />
-                    <img src={fourth} alt="cam" className='w-[152px] h-[200px] object-cover' />
-                    <img src={fifth} alt="cam" className='w-[152px] h-[200px] object-cover' />
-                    <img src={sixth} alt="cam" className='w-[200px] h-[200px] object-cover' />
-                </div>
-                <div className='flex flex-col p-12 lg:mt-[-20px]'>
-                    <h1 className='text-[60px] text-[#1A093C] font-bold'>Experiments and personal projects.</h1>
-                    <p className=' mt-8  text-[#1A093C]'>
-                        Your ceremony & reception venues, your vision, your dress, your colours, and anything else you would like to share with us.
-                        I am a Gold Coast and Brisbane.
-                    </p>
-                </div>
-            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-5 px-4 sm:px-6 md:px-10">
+    <div className="relative grid grid-cols-3 gap-2 w-full max-w-[500px] mx-auto">
+        <img src={first} alt="cam" className="w-full max-w-[152px] h-auto object-cover" />
+        <img src={second} alt="cam" className="w-full max-w-[152px] h-auto object-cover" />
+        <img src={third} alt="cam" className="w-full max-w-[152px] h-auto object-cover" />
+        <img src={fourth} alt="cam" className="w-full max-w-[152px] h-[200px] mt-[-50px] rounded-md object-cover" />
+        <img src={fifth} alt="cam" className="w-full max-w-[152px] h-auto object-cover" />
+        <img src={sixth} alt="cam" className="w-full max-w-[200px] h-auto object-cover" />
+    </div>
+    <div className="flex flex-col p-6 sm:p-12">
+        <h1 className="text-[32px] sm:text-[48px] lg:text-[60px] text-[#1A093C] font-bold">
+            Experiments and personal projects.
+        </h1>
+        <p className="mt-4 sm:mt-8 text-[#1A093C] text-sm sm:text-base">
+            Your ceremony & reception venues, your vision, your dress, your colors, and anything else you would like to share with us.
+            I am a Gold Coast and Brisbane.
+        </p>
+    </div>
+</div>
+<div className="border border-b-[#F6F5FB] w-full h-auto flex justify-center py-10">
+    <div className="flex flex-wrap gap-6 sm:gap-14 justify-center text-center">
+        <div>
+            <h1 className="text-[#1A093C] font-extrabold text-[32px] sm:text-[40px]">58+</h1>
+            <h2 className="text-[16px] sm:text-[20px] text-[#1A093C]">Cute Customers</h2>
+        </div>
+        <div>
+            <h1 className="text-[#1A093C] font-extrabold text-[32px] sm:text-[40px]">38+</h1>
+            <h3 className="text-[16px] sm:text-[20px] text-[#1A093C]">Rewards</h3>
+        </div>
+        <div>
+            <h1 className="text-[#1A093C] font-extrabold text-[32px] sm:text-[40px]">98+</h1>
+            <h3 className="text-[16px] sm:text-[20px] text-[#1A093C]">Projects Completed</h3>
+        </div>
+    </div>
+</div>
 
-            
-            <div className='  border border-b-[#F6F5FB]  w-full h-auto flex  text-white font-bold absolute justify-center   '>
-            <div className='flex flex-row gap-14 md:flex-row '>
-                    <div className=' lg:ml-[900px]'>
-                        <h1 className='text-[#1A093C] font-extrabold text-[40px]'>58+</h1>
-                        <h2 className='text-[20px] text-[#1A093C]'>Cute Customer</h2>
-                    </div>
-                    <div>
-                        <h1 className='text-[#1A093C] font-extrabold text-[40px]'>38+</h1>
-                        <h3 className='text-[20px] text-[#1A093C]'>Rewards</h3>
-                    </div>
-                    <div>
-                        <h1 className='text-[#1A093C] font-extrabold text-[40px]'>98+</h1>
-                        <h3 className='text-[20px] text-[#1A093C]'>Project Completed</h3>
-                    </div>
-                </div>
-            </div>
+
         </div>
     )
 }
